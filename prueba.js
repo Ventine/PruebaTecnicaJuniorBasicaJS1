@@ -34,7 +34,7 @@ console.log(c);
 //Aplanar los arreglos a un nivel
 
 const flatten = arr => arr.reduce((acc,el) => acc.concat(el), []);
-const f = flatten([1,2],[[3,4]],[1,[]])
+const f = flatten([[1,2],[[3,4]],[1,[]]])
 console.log(f);
 
 //Cantidad repetidas de palabras
